@@ -1,0 +1,108 @@
+:root {
+    --light-grey: #f5f6f7;
+    --dark-blue: #0a0a23;
+    --fcc-blue: #1b1b32;
+    --light-yellow: #fecc4c;
+    --dark-yellow: #feac32;
+    --light-pink: #ffadad;
+    --dark-red: #850000;
+    --light-green: #acd157;
+  }
+  
+  body {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    background-color: var(--dark-blue);
+    color: var(--light-grey);
+  }
+  
+ 
+  
+  .logo img {
+    width: 50px;
+    padding-left: 7px;
+  }
+  
+ .title {
+    display: flex;
+    justify-content: center;
+    margin-top: -39px;
+   
+    
+    
+ }
+ .title h1 {
+    font-size: 50px;
+
+ }
+ .container {
+    background-color: var(--light-grey);
+    
+    padding: 20px; 
+    border-radius: 20px;
+    
+    display: inline-block;
+    color: #000;
+    width: 391px;
+    
+    box-shadow: 0 10px 6px -6px rgba(255, 0, 38, 0.5);
+    
+    
+    
+}
+#text-input {
+  width: 70%; /* Set the width to 100% */
+    padding: 10px; /* Add padding for better appearance */
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #6C22A6;
+   
+    background-color: var(--light-grey);
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+  
+#check-btn {
+  background-color: #6C22A6; /* Green background color */
+  color: white;
+  padding: 10px 10px; /* Adjust padding for better appearance */
+  border: none;
+  border-radius: 20px; /* Add border-radius for rounded corners */
+  cursor: pointer;
+  margin-left: 8px;
+  width: 85px;
+}
+  
+  
+  
+  .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 148px;
+  }
+  .wrapper {
+    
+    text-align: center;
+    padding: 20px;
+}
+.content {
+  background-color:  #012602;
+    
+  padding: 20px; 
+  border-radius: 20px;
+  text-align: center;
+  display: inline-block;
+  margin-top: 28px;
+  
+  
+  color: #fff;
+  width: 391px;
+}
